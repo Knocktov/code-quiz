@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Coding Quiz!</title>
 
-    <link rel="stylesheet" href=".assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
@@ -17,21 +17,21 @@
 
     <div class="timer">Time: <span id="time">0</span></div>
 
-    <div class="wrapper">
+    <div class="content">
       <div id="start-screen" class="start">
         <h1>Coding Quiz!</h1>
         <p>
          Test your knowledge about coding and try for a High Score! Dominate the Leaderboard! (Wrong answers will incur a 10 second penalty)
         </p>
-        <button id="start">Start Quiz</button>
+        <button id="start-quiz">Start Quiz</button>
       </div>
 
       <div id="questions" class="hide">
         <h2 id="question-title"></h2>
-        <div id="choices" class="choices"></div>
+        <div id="choice" class="choice"></div>
       </div>
 
-      <div id="end-screen" class="hide">
+      <div class="hide">
         <h2>All Finished! Lets see your score!</h2>
         <p>Congratulations! Your score is <span id="final-score"></span>.</p>
         <p>
@@ -46,4 +46,4 @@
     <script src=".assets/script/questions.js"></script>
     <script src=".assets/script/script.js"></script>
   </body>
-</html>
+</html> 
