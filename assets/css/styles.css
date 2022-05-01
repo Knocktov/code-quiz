@@ -63,11 +63,7 @@ body {
   button:hover {
     background-color: darkgrey;
   }
-  
-  .choice button {
-    display: block;
-  }
-  
+
   input[type="text"] {
     font-size: 100%;
   }
